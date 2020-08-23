@@ -1,0 +1,32 @@
+Q.1. Write a C program to print "hello" without using semicolon.
+
+#include<stdio.h> 
+int main() 
+{
+ if(printf("hello world"))
+{}
+ return 0; 
+}
+
+
+
+Q.2. Write a program in C to check whether a year is leap year or not (Year will be given by user).
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int year;
+    printf("Enter year");
+    scanf("%d", &year);
+    if(((year % 4 == 0) && (year % 100 !=0)) || (year % 400==0))
+    {
+        printf("leap year");
+    }
+    else
+    {
+        printf("not a leap year");
+    }
+
+    return 0;
+}
