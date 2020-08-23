@@ -1,0 +1,31 @@
+Q.1. Write a program in C to print size of each data types.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a;float b;char c;double d;
+	printf("Size of char is %d\n",sizeof(c));
+	printf("Size of int is %d\n",sizeof(a));
+	printf("Size of float is %d\n",sizeof(b));
+	printf("Size of double is %d",sizeof(d));
+	getch();
+	return 0;
+}
+
+
+Q.2. Write a program in C to print the remainder. (Divisor and dividend will be given by user)
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int divisor,dividend,rem;
+	printf("Enter the divisor\n");
+  scanf("%d",&divisor);
+	printf("Enter the dividend\n");
+	scanf("%d",&dividend);
+	printf("Remainder is %d",(dividend%divisor));
+	getch();
+	return 0;
+}
