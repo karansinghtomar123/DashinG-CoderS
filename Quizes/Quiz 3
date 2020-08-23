@@ -52,3 +52,14 @@ floats and doubles
 ints and floats
 ints and chars (**)
 
+10. How many x are printed? 
+for(i=-2,j=5;i<j;i++,j--)
+{
+printf("x");
+}
+
+10
+5
+4 (**)
+6
+
