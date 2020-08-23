@@ -1,4 +1,4 @@
-Q. Q. Write a program in C to take a number from a user & check whether the number is either armstrong or special or palindrome.
+Q. Write a program in C to take a number from a user & check whether the number is either armstrong or special or palindrome.
 
 #include<stdio.h>
 #include<conio.h>
