@@ -1,0 +1,54 @@
+1. Choose correct C while loop syntax.
+while(condition) { //statements } (**)
+{ //statements }while(condition)
+while(condition); { //statements }
+while() { if(condition) { //statements } }
+
+2. Which datatype can accept the switch statement?
+int
+char
+long
+All of the mentioned (**)
+
+3. For loop in a C program, if the condition is missing?
+It is assumed to be present and taken to be false
+It is assumed to be present and taken to the true (**)
+It result in a syntax error
+Execution will be terminated abruptly
+
+4. How many loops are there in C?
+2
+3 (**)
+4
+5
+
+5.  An array elements are always stored in _________ memory locations.
+Sequential (**)
+Random
+Sequential and Random
+None of the above
+
+6.  Which is the right way to declare constant in C?
+int constant var =10;
+int const var = 10;
+const int var = 10;
+B & C Both (**)
+
+7.  The "C" language is
+Context free language (**)
+Context sensitive language
+Regular language
+None of the above
+
+8.  What will be the output of the following arithmetic expression ?         5+3*2%10-8*6
+-42
+-37 (**)
+-32
+-28
+
+9.  Bitwise operators can operate upon?
+double and chars
+floats and doubles
+ints and floats
+ints and chars (**)
+
