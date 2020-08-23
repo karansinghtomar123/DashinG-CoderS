@@ -1,0 +1,58 @@
+1. Choose a correct statement about C Escape Sequences.
+\n produces new line.
+\t produces one tab space (white spaces)
+\b produces one Backspace
+All of the above (**)
+ 
+2. Which of the following is not a derived data type in C ?
+Function
+Pointer
+Enumeration (**)
+Array
+
+3. The Format Identifier %u is used for?
+Integer
+Float
+Char
+Unsigned Decimal (**)
+
+4. Write an instructions to initailize an array named as  A and having values 10,20,30,40,50.
+int A[5]={10,20,30,40,50}; (**)
+
+5. Which among the following is a mandatory condition for array of objects?
+All the objects should be of different class
+All the objects should be of same program class
+All the objects should be of same class (**)
+All the objects should have different data
+
+6. An Identifier may contain?
+Letters a-z, A-Z in Basic character set. (Unicode alphabet characters other languages)
+Underscore _ symbol
+Numbers 0 to 9 (Unicode Numbers in other languages)
+All the above (**)
+
+7. Choose a correct statement.
+C Compiler converts your C program into machine readable language.
+C Editor allows you to type C Programs. It is just like a Notepad with extra options.
+Console shows the output of a C Program if it is text output.
+All of above (**)
+None of above
+
+8. Which is not a valid keyword in C?
+typedef
+const
+near (**)
+volatile
+
+9. Number of Keywords present in C Language are?
+32 (**)
+34
+62
+64
+
+10. Each statement in a C program should end with.?
+Semicolon ; (**)
+Colon :
+Period . (dot symbol)
+Comma ,
+
