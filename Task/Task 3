@@ -1,0 +1,50 @@
+Q.1. Wap in C to take two input from the user and perform arithmetic, relational, bitwise operator and print the output.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b;
+	printf("ENTER THE TWO NUMBER\n");
+	scanf("%d%d",&a,&b);
+	printf("ADDITION IS %d\n",(a+b));
+	printf("SUBTRACTION IS %d\n",(a-b));
+	printf("MULTIPLICATION IS %d\n",(a*b));
+	printf("DIVISION IS %d\n",(a/b));
+	printf("MODULUS IS %d\n",(a%b));
+	printf("EQUAL TO IS %d\n",(a==b));
+	printf("NOT EQUAL TO IS %d\n",(a!=b));
+	printf("LESS THAN IS %d\n",(a<b));
+	printf("LESS THAN OR EQUAL TO IS %d\n",(a<=b));
+	printf("GREATER THAN IS %d\n",(a>b));
+	printf("GREATER THAN OR EQUAL TO IS %d\n",(a>=b));
+	printf("BITWISE AND %d\n",(a&b));
+	printf("BITWISE OR %d\n",(a|b));
+	printf("BITWISE NOT %d\n",(~a));
+	printf("BITWISE NOT %d\n",(~b));
+	printf("BITWISE XOR %d\n",(a^b));
+	printf("BITWISE LEFT SHIFT %d\n",(2<<a));
+	printf("BITWISE RIGHT SHIFT %d\n",(a>>2));
+	getch();
+	return 0;
+}
+
+
+  Q.2. WAP in C which uses two variables to perform various arithmetic operations.
+  
+  #include<stdio.h>
+  #include<conio.h>
+  int main()
+  {
+	int a,b;
+	printf("ENTER THE TWO NUMBER\n");
+	scanf("%d%d",&a,&b);
+	printf("ADDITION IS %d\n",(a+b));
+	printf("SUBTRACTION IS %d\n",(a-b));
+	printf("MULTIPLICATION IS %d\n",(a*b));
+	printf("DIVISION IS %d\n",(a/b));
+	printf("MODULUS IS %d\n",(a%b));
+	getch();
+	return 0;
+}
+
