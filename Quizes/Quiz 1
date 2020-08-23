@@ -1,0 +1,50 @@
+1. Who is father of C Language?
+James A. Sosling
+Vjarne Stroustrup
+Dennis Ritchie (**)
+Dr. E. F. Codd
+
+
+2. C Language was developed in the year ________.
+1972 (**)
+1975
+1980
+1985
+
+3. Header file in C contain
+Compiler Commands
+Library functions (**)
+Operators for files
+Header Infromation of C
+
+4. Input/output function prototypes and macros are defined in which header file?
+string.h 
+stdlib.h
+stdio.h (**)
+dos.h
+
+5. In C language, if a function return type is not explicitly defined then it defaults to what data type ?
+void
+int (**)
+double
+float
+
+6. Which header file defines the string handling functions? 
+stdint.h
+stdlib.h
+string.h (**)
+stddef.h
+
+7.  C programs are converted into machine language with the help of
+An Editor
+An interpreter
+An operating system
+A compiler (**)
+ 
+8. What is the range of int datatype?
+-3.4e38 to 3.4e38
+-32767 to 32768
+-32768 to 32767 (**)
+-32668 to 32667
+
+.
