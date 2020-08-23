@@ -1,0 +1,63 @@
+Q. Q. Write a program in C to take a number from a user & check whether the number is either armstrong or special or palindrome.
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void armstrong(int n)
+{
+	int p=n,q=n,count=0,r,sum=0;
+	while(p!=0)
+	{
+		p=p/10;
+		count++;
+	}
+	while(q!=0)
+	{
+		r=q%10;
+		sum=sum+pow(r,count);
+		q=q/10;
+	}
+	(n==sum)?printf("Armstrong Number\n"):printf("Not Armstrong Number\n");
+}
+void special(int n)
+{
+	int p=n,q=n,s=0,s1=1,r;
+	while(p!=0)
+	{
+		r=p%10;
+		s=s+r;
+		p=p/10;
+	}
+	while(q!=0)
+	{
+		r=q%10;
+		s1=s1*r;
+		q=q/10;
+	}
+	(n==(s+s1))?printf("Special Number\n"):printf("Not Special Number\n");
+}
+void palindrome(int n)
+{
+	int p=n,r,rev=0;
+	while(p!=0)
+	{
+		r=p%10;
+		rev=rev*10+r;
+		p=p/10;
+	}
+	(n==rev)?printf("Palindrome Number\n"):printf("Not Palindrome Number\n");
+}
+int main()
+{
+	int n;
+	printf("Enter The Number\n");
+	scanf("%d",&n);
+	armstrong(n);
+	special(n);
+	palindrome(n);
+	return 0;
+	getch();
+}
+//to check
+//special & palindrome 99
+//armstorng & palindrome 1 to 9
