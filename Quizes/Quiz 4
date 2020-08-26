@@ -8,10 +8,13 @@ Q.2. Can a program be compiled without a main() function?
 Yes (**)
 No
 
-Q.3. What is the use of a semicolon (;) at the end of every program statement?
-Semicolon at the end gives an indication to the compiler that it is the end of the intsruction. (**)
+Q.3.Can we declare function inside structure Of C?
+Yes
+No (**)
+Both of them
+None of them
 
-Q.4. List some of the most important features of the C programming language (any three).
+Q.4. List some of the most important features of the C programming language (any two).
 Features of C Language -
 @ Simple.
 @ Machine Independent or Portable.
@@ -22,16 +25,8 @@ Features of C Language -
 @ Fast Speed.
 @ Pointers.
 
-Q.5. Write a program to print Hello World! Without using the semicolon.
-#include<stdio.h> 
-int main() 
-{
- if(printf("hello world"))
-{}
- return 0; 
-}
 
-Q.6. What are some of the limitations of C language?
+Q.5. What are some of the limitations of C language? (any two)
 The limitations of C programming languages are as follows -
 @ Difficult to debug.
 @ C allows a lot of freedom in writing code, and that is why you can put an empty line or white space anywhere in the program. And because there is no fixed place to start or end the line, so it is difficult to read and understand the program.
@@ -41,27 +36,32 @@ The limitations of C programming languages are as follows -
 @ It does not provide strict data type checking (for example an integer value can be passed for floating datatype).
 
 
-Q.7. Choose the correct answer Saumya writes a code which has a function which calls itself. Which programming concept is Saumya using?
+Q.6. Choose the correct answer Saumya writes a code which has a function which calls itself. Which programming concept is Saumya using?
 This is bad programming practice and should not be done.
 Recursion (**)
 Decision Making
 Overloading
 
-Q.8.  The value of EOF is________
+Q.7.  The value of EOF is________
 -1 (**)
 0
 1
 10
 
-Q.9. What is the output of the following pseudo code?                       Int a =456,b,c,d=10; b=a/d; c=a-b; print c;
+Q.8. What is the output of the following pseudo code?                       Int a =456,b,c,d=10; b=a/d; c=a-b; print c;
 411.4
 411 (**)
 410.4
 410
 
-Q.10. The construct “if (condition) then A else B” is for which of the following purposes?
+Q.9. The construct “if (condition) then A else B” is for which of the following purposes?
 Decision-Making (**)
 Iteration
 Recursion
 Object Oriented Programming
 
+Q.10. In C, order of passing arguments to a function is done -
+left to right
+randomly
+manualy
+right to left (**)
